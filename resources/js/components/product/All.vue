@@ -2,13 +2,13 @@
     <div>
         <h2 class="text-center">Products List</h2>
  
-        <table class="table">
+        <table class="table text-center">
             <thead>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
                 <th>Detail</th>
-                <!-- <th>Actions</th> -->
+                <th>Ações</th>
             </tr>
             </thead>
             <tbody>
@@ -18,8 +18,8 @@
                 <td>{{ product.detail }}</td>
                 <td>
                     <div class="btn-group" role="group">
-                        <router-link :to="{name: 'editProduct', params: { id: product.id }}" class="btn btn-success">Edit</router-link>
-                        <button class="btn btn-danger" @click="deleteProduct(product.id)">Delete</button>
+                        <router-link :to="{name: 'editProduct', params: { id: product.id }}" class="btn btn-success">Editar</router-link>
+                        <button class="btn btn-danger" @click="deleteProduct(product.id)">Apagar</button>
                     </div>
                 </td>
             </tr>

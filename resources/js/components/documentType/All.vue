@@ -2,12 +2,12 @@
     <div>
         <h2 class="text-center">Lista de Tipos de Documentos</h2>
  
-        <table class="table">
+        <table class="table text-center">
             <thead>
             <tr>
                 <th>ID</th>
                 <th>Nome do Tipo</th>
-                <!-- <th>Actions</th> -->
+                <th>Ações</th>
             </tr>
             </thead>
             <tbody>

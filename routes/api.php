@@ -18,4 +18,5 @@ Route::middleware('api')->group(function () {
     Route::resource('products', App\Http\Controllers\ProductController::class);
     Route::resource('document', App\Http\Controllers\DocumentController::class);
     Route::resource('documentType', App\Http\Controllers\DocumentTypeController::class);
+    Route::get('teste', 'App\Http\Controllers\TesteTalyssonController@teste');
 });

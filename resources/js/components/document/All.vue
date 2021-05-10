@@ -2,14 +2,14 @@
     <div>
         <h2 class="text-center">Lista de Documentos</h2>
  
-        <table class="table">
+        <table class="table text-center">
             <thead>
             <tr>
                 <th>ID</th>
                 <th>Título</th>
                 <th>Nome do Arquivo</th>
                 <th>Tipo</th>
-                <!-- <th>Actions</th> -->
+                <th>Ações</th>
             </tr>
             </thead>
             <tbody>
