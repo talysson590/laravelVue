@@ -1,5 +1,9 @@
 
-## Projeto Teste Talysson Fábrica Info
+# Projeto Laravel-VeJs
+
+Projeto em Laravel e VueJs.
+- Referência: https://github.com/laravel/laravel
+- https://github.com/vuejs/vue
 
 ## AMBIENTE LOCAL
 
@@ -12,11 +16,6 @@
 4º Execute o comando "php artisan serve"
 
 5º Execute o comando em outro terminal "npm run watch"
-
-## Questões 01 à 04 estão:
-app/Http/Controllers/TesteTalyssonController.php
-app/Utils/AssinaDocumentoClass.php
-app/Utils/TesteTalysson.php
 
 ## Rotas da API
 
