@@ -2,7 +2,8 @@
 # Projeto Laravel-VeJs
 
 Projeto em Laravel e VueJs.
-- Referência: https://github.com/laravel/laravel
+Referência: 
+- https://github.com/laravel/laravel
 - https://github.com/vuejs/vue
 
 ## AMBIENTE LOCAL
